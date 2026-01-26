@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 100px;
+    height: 50px;
+
+}
+header a {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid blue;
+}
+
+#last{
+    border: none;
+}
+
+nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    border-bottom: 20px solid blueviolet;
+}
+nav button{
+    background-color: blue;
+    border: none;
+    border-radius: 2px 2px 0px 0px ;
+    padding: 4px;
+    width: 120px;
+}
+nav button:hover{
+    background-color: blueviolet ;
+}
+
+aside{
+    width: 25%;
+    margin-left: 30px;
+    display: inline-flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    vertical-align: top;
+}
+.register {
+    background-color: rgb(225, 225, 225);
+    width: 50%;
+}
+.register h3{
+    background-color: rgb(189, 186, 186);
+    padding-left: 3px;
+}
+.register p{
+    margin-left: 20px;
+    margin-top: 5px;
+} 
+.register button{
+    margin-left: 20px;
+    margin-bottom: 10px;
+} 
+.news {
+    background-color: rgb(225, 225, 225);
+    width: 50%;
+}
+#Head1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(189, 186, 186);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.cards{
+    display:flex ;
+    width: 50%;
+}
+.cards img{
+    width: 50%;
+}
+main{
+    width: 60%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.left{
+    display: inline-block;
+    width: 60%;
+    margin-top: 20px;
+}
+.content1 button {
+    margin: 50px;
+    vertical-align:top;
+    width: 150px;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.content1 {
+    width: 90%;
+}
+#bottompara {
+    margin-top: 10px;
+    margin-bottom: 10px;
+ text-align: center;
+
+}
+#bottomh1{
+    text-align: center;
+    background-color: rgb(230, 230, 118);
+}
+
+.content2{
+      width: 90%;
+}
+.content2 h2 {
+     background-color: rgb(189, 186, 186);
+     padding: 5px;
+     margin-bottom: 4px;
+}
+.content2 img {
+    display: inline-block;
+    width: 10%;
+}
+.iconbox {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 20px;
+}
+.footer1 a {
+    border-right: 1px solid blue;
+    padding-right: 5px;
+    padding-left: 5px;
+}
