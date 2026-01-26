@@ -32,9 +32,22 @@
 // console.log(x[x.length-1]) 
 
 
-let x=5
-var y=2
-const  z=6
 
-x=11
-y=99
+let x=7
+let y=2
+let z=10
+
+
+// m=false
+
+// if (!m){
+//     console.log('hi')
+// }
+
+if (!(z%2)){
+    console.log('it is true')
+}
+
+if (z%2!=0){
+
+}
